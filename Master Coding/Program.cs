@@ -1,5 +1,7 @@
 ﻿using Master_Coding.Algorithms;
 using Master_Coding.Algorithms.Sorting;
+using Master_Coding.Codility;
+using Master_Coding.Cracking_the_Coding_Interview;
 using Master_Coding.DataStructureArrays;
 using Master_Coding.DataStructureHashTable;
 using Master_Coding.DataStructureLinkedList;
@@ -17,17 +19,57 @@ namespace Master_Coding
       
         static void Main(string[] args)
         {
-            Contacts_application contacts_Application = new Contacts_application();
-            List<List<string>> queries = new List<List<string>>();
-            queries.Add("add ed".Split(" ").ToList());
-            queries.Add("add eddie".Split(" ").ToList());
-            queries.Add("add edward".Split(" ").ToList());
-            queries.Add("find ed".Split(" ").ToList());
-            queries.Add("add edwina".Split(" ").ToList());
-            queries.Add("find edw".Split(" ").ToList());
-            contacts_Application.contacts(queries);
-            Find_Common_Characters find_Common_Characters = new Find_Common_Characters();
-            find_Common_Characters.CommonChars(new string[] { "bella", "label", "roller" });
+            BasicCalculator basicCalculator = new BasicCalculator();
+            //basicCalculator.Calculate("(1+(4+5+2)-3)+(6+8)");
+            Console.WriteLine( basicCalculator.Calculate("-(3+2)+5+3+3-(5+6)"));
+            //Longest_Valid_Parentheses.LongestValidParentheses("()()(()()(())()))(())(())(())(()))(())()))())())(()))()))(()))()))(())(()())()())(");
+
+            // var dd = 0 % 2;
+            // var u = new int[30];
+            // u.ToList();
+            // OddOccurrencesInArray.OddOccurrencesInArrayMethod(new int[] { 1,2,3,4,4,5,6, });
+            // Minimize_Deviation_in_Array minimize_Deviation_In_Array = new Minimize_Deviation_in_Array();
+            ////Console.WriteLine( minimize_Deviation_In_Array.MinimumDeviation(new int[] { 1,2,3,4}));
+            //Console.WriteLine( minimize_Deviation_In_Array.MinimumDeviation(new int[] { 399,908,648,357,693,502,331,649,596,698}));
+            // //Swap_Nodes_in_Pairs.SwapPairs(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6)))))));
+            // Monotonic_Array monotonic_Array = new Monotonic_Array();
+            //monotonic_Array.IsMonotonic(new int[] { 1, 2, 2,6,7,8,9 });
+            // Factorial_Trailing_Zeroes factorial_Trailing_Zeroes = new Factorial_Trailing_Zeroes();
+            //factorial_Trailing_Zeroes.TrailingZeroes(10000);
+            //Do_They_Belong do_They_Belong = new Do_They_Belong();
+            //do_They_Belong.doTheyBelong(2,2,7,2,5,4,4,3,7,4);
+            //do_They_Belong.doTheyBelong(0,0,2,0,4,0,2,0,4,0);
+            //do_They_Belong.doTheyBelong(3,1,7,1,5,5,3,1,0,0);
+            //do_They_Belong.doTheyBelong(3,1,7,1,5,5,1,1,4,3);
+            // FindFactorial findFactorial = new FindFactorial();
+            //Console.WriteLine(  findFactorial.FibonacciIterativeRecursive(50));
+            //Unique_Binary_Search_Trees unique_Binary_Search_Trees = new Unique_Binary_Search_Trees();
+            //unique_Binary_Search_Trees.NumTrees(20);
+            ///Maximum_XOR_of_Two_Numbers_in_an_Array maximum_XOR_Of_Two_Numbers_In_An_Array = new Maximum_XOR_of_Two_Numbers_in_an_Array();
+            //maximum_XOR_Of_Two_Numbers_In_An_Array.FindMaximumXOR(new int[] { 14, 70, 53, 83, 49, 91, 36, 80, 92, 51, 66, 70 });
+            //Detect_Capital detect_Capital = new Detect_Capital();
+            //detect_Capital.DetectCapitalUse("U");
+            //Sequential_Digits sequential_Digits = new Sequential_Digits();
+            //var xx = sequential_Digits.SequentialDigits(28932835,733240848);
+            //var uy = new Remove_Duplicates_from_Sorted_List_II().DeleteDuplicates(null);
+            // Add_Two_Numbers add_Two_Numbers = new Add_Two_Numbers();
+            //var ty = add_Two_Numbers.AddTwoNumbers(null, null);
+            //Rotate_Image.Rotate(new int[][] { new int[]{ 5, 1, 9, 11 },new int[]{ 2, 4, 8, 10 },new int[]{ 13, 3, 6, 7 },new int[]{ 15, 14, 12, 16 } });
+
+            //var uRLif =  URLif.URLifMethod("Mr John Smith    ".ToCharArray(),13);
+            //var rr = 0;
+
+            //Contacts_application contacts_Application = new Contacts_application();
+            //List<List<string>> queries = new List<List<string>>();
+            //queries.Add("add ed".Split(" ").ToList());
+            //queries.Add("add eddie".Split(" ").ToList());
+            //queries.Add("add edward".Split(" ").ToList());
+            //queries.Add("find ed".Split(" ").ToList());
+            //queries.Add("add edwina".Split(" ").ToList());
+            //queries.Add("find edw".Split(" ").ToList());
+            //contacts_Application.contacts(queries);
+            //Find_Common_Characters find_Common_Characters = new Find_Common_Characters();
+            //find_Common_Characters.CommonChars(new string[] { "bella", "label", "roller" });
             //RotateRight rotateRight = new RotateRight();
             //ListNode listNode = new ListNode(1);
             //listNode.next = new ListNode(2);
@@ -54,14 +96,14 @@ namespace Master_Coding
             //var t= trie.StartsWith("app"); // return True
             //trie.Insert("app");
             //var d= trie.Search("app");     // return True
-            var tt = 0;
-        //    new Merge_Sorted_Array().Merge(new int[] {4,5,6,0,0,0 },3,new int[] {1,2,3 },1);
-        //    new Insertion_Sort().InsertionSort(new int[] { 99,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,9});
-        //    Console.WriteLine(new Median_of_Two_Sorted_Arrays().FindMedianSortedArrays(new int[] { 3,4,7,6}, new int[] { 1,2 }));
-        //new First_Missing_Positive().FirstMissingPositive(new int[] { 0,2,2,1,1 });
-        //new Next_Permutation().NextPermutation(new int[] { 2,3,1});
-        //new ReverseString().ReverseStringFunction((new string[] { );
-            Console.WriteLine(new FindFactorial().FibonacciIterativeRecursive(100));
+            // var tt = 0;
+            //    new Merge_Sorted_Array().Merge(new int[] {4,5,6,0,0,0 },3,new int[] {1,2,3 },1);
+            //    new Insertion_Sort().InsertionSort(new int[] { 99,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,999,44,6,2,1,5,63,87,283,4,9});
+            //    Console.WriteLine(new Median_of_Two_Sorted_Arrays().FindMedianSortedArrays(new int[] { 3,4,7,6}, new int[] { 1,2 }));
+            //new First_Missing_Positive().FirstMissingPositive(new int[] { 0,2,2,1,1 });
+            //new Next_Permutation().NextPermutation(new int[] { 2,3,1});
+            //new ReverseString().ReverseStringFunction((new string[] { );
+            //Console.WriteLine(new FindFactorial().FibonacciIterativeRecursive(100));
             //BinarySearchTree tree = new BinarySearchTree();
             //tree.Insert(9);
             //tree.Insert(4);
@@ -71,7 +113,7 @@ namespace Master_Coding
             //tree.Insert(15);
             //tree.Insert(1);
             //var dd = tree.DFSPostOrder();
-          
+
             //Console.WriteLine(tree.Lookup(1));
             //Word_Break word_Break = new Word_Break();
             //List<string> vs1 = new List<string>();
