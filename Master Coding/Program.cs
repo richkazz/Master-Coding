@@ -19,9 +19,48 @@ namespace Master_Coding
       
         static void Main(string[] args)
         {
-            BasicCalculator basicCalculator = new BasicCalculator();
+            Boats_to_Save_People boats_To_Save_People = new Boats_to_Save_People();
+            var xx = boats_To_Save_People.NumRescueBoats(new int[] { 2, 49, 10, 7, 11, 41, 47, 2, 22, 6, 13, 12, 33, 18, 10, 26, 2, 6, 50, 10 }, 50);
+            //FreqStack freqStack = new FreqStack();
+            //freqStack.Push(5);
+            //freqStack.Push(7);
+            //freqStack.Push(5);
+            //freqStack.Push(7);
+            //freqStack.Push(4);
+            //freqStack.Push(5);
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //freqStack.Push(5);
+            //freqStack.Push(7);
+            //freqStack.Push(4);
+            //freqStack.Push(4);
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //freqStack.Pop();
+            //LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
+            //lengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb");
+            //All_turned_on_bulbs_are_shined all_Turned_On_Bulbs_Are_Shined = new All_turned_on_bulbs_are_shined();
+            //var rr  = all_Turned_On_Bulbs_Are_Shined.NumTimesAllBlue(new int[] { 3, 2, 4, 1, 5 });
+            //IndexPositionString indexPositionString = new IndexPositionString();
+            //var re = indexPositionString.find(new string[] { "abc", "bca", "dbe" });
+            //var re2 = indexPositionString.find2(new string[] { "abc", "bca", "dbe" });
+            //var rt = indexPositionString.find(new string[] { "zzzz", "ferz", "zdsr", "fgtd" });
+            //var rt2 = indexPositionString.find2(new string[] { "zzzz", "ferz", "zdsr", "fgtd" });
+            //var ru = indexPositionString.find(new string[] { "gr", "sd", "rg" });
+            //var ru2 = indexPositionString.find2(new string[] { "gr", "sd", "rg" });
+            //var ri = indexPositionString.find(new string[] { "bdafg", "ceagi" });
+            //var ri2 = indexPositionString.find2(new string[] { "bdafg", "ceagi" });
+            //var rw = indexPositionString.find(new string[] { "a", "a" });
+            //var rr = indexPositionString.find(new string[] { "a", "b" });
+            //var rr2 = indexPositionString.find2(new string[] { "a", "b" });
+            //var rri = indexPositionString.find(new string[] { "a", "b", "a" });
+            var u = 0;
+            //BasicCalculator basicCalculator = new BasicCalculator();
             //basicCalculator.Calculate("(1+(4+5+2)-3)+(6+8)");
-            Console.WriteLine( basicCalculator.Calculate("-(3+2)+5+3+3-(5+6)"));
+            // Console.WriteLine( basicCalculator.Calculate("-(3+2)+5+3+3-(5+6)"));
             //Longest_Valid_Parentheses.LongestValidParentheses("()()(()()(())()))(())(())(())(()))(())()))())())(()))()))(()))()))(())(()())()())(");
 
             // var dd = 0 % 2;
