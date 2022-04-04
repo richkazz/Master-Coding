@@ -1,5 +1,6 @@
 ﻿using Master_Coding.Algorithms;
 using Master_Coding.Algorithms.Sorting;
+using Master_Coding.Amazon;
 using Master_Coding.Codility;
 using Master_Coding.Cracking_the_Coding_Interview;
 using Master_Coding.DataStructureArrays;
@@ -16,13 +17,15 @@ namespace Master_Coding
 {
     class Program
     {
-
+      
         static void Main(string[] args)
         {
-            var input = new string[] { "MyLinkedList", "addAtHead", "addAtTail", "addAtTail", "get", "get", "addAtTail", "addAtIndex", "addAtHead", "addAtHead", "addAtTail", "addAtTail", "addAtTail", "addAtTail", "get", "addAtHead", "addAtHead", "addAtIndex", "addAtIndex", "addAtHead", "addAtTail", "deleteAtIndex", "addAtHead", "addAtHead", "addAtIndex", "addAtTail", "get", "addAtIndex", "addAtTail", "addAtHead", "addAtHead", "addAtIndex", "addAtTail", "addAtHead", "addAtHead", "get", "deleteAtIndex", "addAtTail", "addAtTail", "addAtHead", "addAtTail", "get", "deleteAtIndex", "addAtTail", "addAtHead", "addAtTail", "deleteAtIndex", "addAtTail", "deleteAtIndex", "addAtIndex", "deleteAtIndex", "addAtTail", "addAtHead", "addAtIndex", "addAtHead", "addAtHead", "get", "addAtHead", "get", "addAtHead", "deleteAtIndex", "get", "addAtHead", "addAtTail", "get", "addAtHead", "get", "addAtTail", "get", "addAtTail", "addAtHead", "addAtIndex", "addAtIndex", "addAtHead", "addAtHead", "deleteAtIndex", "get", "addAtHead", "addAtIndex", "addAtTail", "get", "addAtIndex", "get", "addAtIndex", "get", "addAtIndex", "addAtIndex", "addAtHead", "addAtHead", "addAtTail", "addAtIndex", "get", "addAtHead", "addAtTail", "addAtTail", "addAtHead", "get", "addAtTail", "addAtHead", "addAtTail", "get", "addAtIndex" };
-            var val = "[[],[84],[2],[39],[3],[1],[42],[1|80],[14],[1],[53],[98],[19],[12],[2],[16],[33],[4|17],[6,8],[37],[43],[11],[80],[31],[13|23],[17],[4],[10,0],[21],[73],[22],[24,37],[14],[97],[8],[6],[17],[50],[28],[76],[79],[18],[30],[5],[9],[83],[3],[40],[26],[20,90],[30],[40],[56],[15,23],[51],[21],[26],[83],[30],[12],[8],[4],[20],[45],[10],[56],[18],[33],[2],[70],[57],[31,24],[16,92],[40],[23],[26],[1],[92],[3,78],[42],[18],[39,9],[13],[33,17],[51],[18,95],[18,33],[80],[21],[7],[17,46],[33],[60],[26],[4],[9],[45],[38],[95],[78],[54],[42,86]]";
-            Design_Linked_List design_Linked_List = new Design_Linked_List();
-            design_Linked_List.Testing(input, val, design_Linked_List);
+            //var x = Truck_Delivery.Distance(new List<List<int>>() { new List<int>() { 1, 0, 0,0 }, new List<int>() { 1, 1, 0,0 }, new List<int>() { 0, 1, 1,0 }, new List<int>() { 0, 0, 9, 0 } });
+            //var y = Song_Duration.duration(90, new List<int>() {1,10,50,40,30});
+            //var input = new string[] { "MyLinkedList", "addAtHead", "addAtTail", "addAtTail", "get", "get", "addAtTail", "addAtIndex", "addAtHead", "addAtHead", "addAtTail", "addAtTail", "addAtTail", "addAtTail", "get", "addAtHead", "addAtHead", "addAtIndex", "addAtIndex", "addAtHead", "addAtTail", "deleteAtIndex", "addAtHead", "addAtHead", "addAtIndex", "addAtTail", "get", "addAtIndex", "addAtTail", "addAtHead", "addAtHead", "addAtIndex", "addAtTail", "addAtHead", "addAtHead", "get", "deleteAtIndex", "addAtTail", "addAtTail", "addAtHead", "addAtTail", "get", "deleteAtIndex", "addAtTail", "addAtHead", "addAtTail", "deleteAtIndex", "addAtTail", "deleteAtIndex", "addAtIndex", "deleteAtIndex", "addAtTail", "addAtHead", "addAtIndex", "addAtHead", "addAtHead", "get", "addAtHead", "get", "addAtHead", "deleteAtIndex", "get", "addAtHead", "addAtTail", "get", "addAtHead", "get", "addAtTail", "get", "addAtTail", "addAtHead", "addAtIndex", "addAtIndex", "addAtHead", "addAtHead", "deleteAtIndex", "get", "addAtHead", "addAtIndex", "addAtTail", "get", "addAtIndex", "get", "addAtIndex", "get", "addAtIndex", "addAtIndex", "addAtHead", "addAtHead", "addAtTail", "addAtIndex", "get", "addAtHead", "addAtTail", "addAtTail", "addAtHead", "get", "addAtTail", "addAtHead", "addAtTail", "get", "addAtIndex" };
+            //var val = "[[],[84],[2],[39],[3],[1],[42],[1|80],[14],[1],[53],[98],[19],[12],[2],[16],[33],[4|17],[6,8],[37],[43],[11],[80],[31],[13|23],[17],[4],[10,0],[21],[73],[22],[24,37],[14],[97],[8],[6],[17],[50],[28],[76],[79],[18],[30],[5],[9],[83],[3],[40],[26],[20,90],[30],[40],[56],[15,23],[51],[21],[26],[83],[30],[12],[8],[4],[20],[45],[10],[56],[18],[33],[2],[70],[57],[31,24],[16,92],[40],[23],[26],[1],[92],[3,78],[42],[18],[39,9],[13],[33,17],[51],[18,95],[18,33],[80],[21],[7],[17,46],[33],[60],[26],[4],[9],[45],[38],[95],[78],[54],[42,86]]";
+            //Design_Linked_List design_Linked_List = new Design_Linked_List();
+            //design_Linked_List.Testing(input, val, design_Linked_List);
 
             // Boats_to_Save_People boats_To_Save_People = new Boats_to_Save_People();
             //var xx = boats_To_Save_People.NumRescueBoats(new int[] { 2, 49, 10, 7, 11, 41, 47, 2, 22, 6, 13, 12, 33, 18, 10, 26, 2, 6, 50, 10 }, 50);
@@ -249,9 +252,7 @@ namespace Master_Coding
             //Console.WriteLine( FindingMatchingPair.NaiveMethod(array1, array2));
             //Console.WriteLine( FindingMatchingPair.CorrectMethod(array1, array2));
         }
-        void IncreaseArraySize()
-        {
-            
-        }
+       
+        
     }
 }

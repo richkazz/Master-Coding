@@ -139,8 +139,9 @@ namespace Master_Coding.LeetCode
 
         public void Testing(string[] method, string value, Design_Linked_List design_Linked_List)
         {
-            var temp = value.Split(",");
+            var temp = value.Split(" ");
             var list = new List<string>();
+            
             var c = 2;
             for (var i = 1; i < temp.Length; i++)
             {
