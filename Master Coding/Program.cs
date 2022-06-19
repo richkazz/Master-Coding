@@ -8,6 +8,7 @@ using Master_Coding.DataStructureHashTable;
 using Master_Coding.DataStructureLinkedList;
 using Master_Coding.GoogleInterviewQuestion;
 using Master_Coding.LeetCode;
+using Master_Coding.LeetCode.Graph;
 using Master_Coding.Trees;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,17 @@ namespace Master_Coding
 {
     class Program
     {
-      
+     
         static void Main(string[] args)
         {
+
+            
+            var dsfjj = new ParseBoolExprClass().ParseBoolExpr("!(&(!(&(f)),&(t),|(f,f,t)))");
+            var longest = new LongestStrChain().LongestStrChainMethod(
+                new string[] { "a", "ab", "ac", "bd", "abc", "abd", "abdd"});
+            As_Far_from_Land_as_Possible as_Far_From_Land_As_Possible = new As_Far_from_Land_as_Possible();
+            as_Far_From_Land_As_Possible.MaxDistance(new int[][] { new int[] { 1, 0, 1 },new int[] { 0, 0, 0 },new int[] { 1, 0, 1 } });
+                 
             var xx = 70 % 60;
             var yy = 0;
             //bool[,,] vs = new bool[60, 60, 90];
